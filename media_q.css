@@ -1,0 +1,379 @@
+@media only screen and (max-width: 1050px){
+    .header{
+              justify-content: space-between;
+    }
+    .image{
+        max-width: 410px;
+    }
+    .outer-box{
+        max-width: 96%;
+    }
+   .image-main{
+    margin-left: 0px;
+    padding-bottom: 10%;
+  
+   }
+   .feedback-rating{
+    margin-left: 0px;
+   }
+   .ad-adv {
+    max-width: 100%;
+    display: flex;
+    flex-direction: column;
+    
+   }
+   .ads-head{
+    width: 100%;
+    
+   }
+   .ads-msg{
+    width: 100%;
+    
+   }
+   .ads-link{
+    width: 100%;
+   }
+   .subscriptions {
+    gap: 20px;
+   }
+   
+} 
+
+@media only screen and (max-width: 930px){
+
+    .image{
+        display: none;
+    }
+    .options{
+        display: none;
+    }
+    .btn-options{
+        justify-content: space-between;
+    }
+    .main-content {
+        display: flex;
+        justify-content: center;
+    }
+    .second-content {
+        display: none;
+    }
+    .course-head{
+        max-width: 100%;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+    }
+    .course-innerhead{
+        max-width: 100%;
+        justify-content: center;
+        padding-left: 0px;
+    }
+    .title-box {
+        max-width: 100%;
+    }
+    .dsp-box{
+        max-width: 100%;
+    }
+    .first-content {
+        width: 85%;
+        padding: 0px;
+       
+    }
+    .inner-content{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+        
+
+       
+
+    }
+    .small-text {
+        text-align: center;
+        margin-top: 10%;
+    }
+    .inner-text{
+        max-width: 100%;
+        
+    }
+    .text-main {
+        font-size: 300%;
+
+    }
+    .discription-box {
+        max-width: 80%;
+        margin: auto;
+        font-size: 18px;
+        text-align: center;
+    }
+    .btn-boxes {
+        max-width: 50%;
+        margin:5% 25%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .inner-box{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        padding-left: 20%;
+    }
+    .image-innerhead{
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        padding-left: 0px;
+    }
+    .image-main{
+        display: grid;
+        grid-template-columns: repeat(2 ,1fr);
+        gap: 70px;
+        padding-bottom: 20%;
+        padding-right: 10%;
+        padding-left: 10%;
+        justify-content: center;
+    }
+    .feed-first-texting {
+        text-align: center;
+    }
+    .ads-left {
+        display: none;
+    }
+    .ads-right {
+        width: 100%;
+        justify-content: center;
+    }
+    .ads-head{
+        text-align: center;
+    }
+    .ads-msg{
+        text-align:center;
+    }
+    .ads-link{
+        text-align: center;
+    }
+    .subscriptions{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .first-sub{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .third-sub {
+        justify-content: center;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .second-sub{
+        margin-left: 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-innerbox {
+        display: grid; 
+         grid-template-columns: repeat(3, 1fr);
+         gap: 20px;
+         
+    }
+    .footer-first {
+        max-width: 85%;
+    }
+    .footer-end{
+        max-width: 85%;
+    } 
+    .the-last-line{
+      max-width: 100%;
+      font-size: 13px;
+    }
+    .footer-endbox{
+        max-width: 100%;
+    }
+}
+@media only screen and (max-width: 720px){ 
+    .title{
+        font-size: 23px;
+    }
+    .login-btn{
+        font-size: 13px;
+    }
+    .join-btn{
+        font-size: 13px;
+    }
+    .text-main{
+        font-size: 34px;
+    }
+    .text-msg {
+        font-size: 18px;
+    }
+    .btn-boxes{
+    font-size: 14px;
+    }
+    .first-text{
+        font-size: 13px;
+    }
+    .title-box {
+        font-size: 22px;
+    }
+    .inner-box{
+        padding: 0px;
+        grid-template-columns: repeat(1 ,1fr);
+        padding: 10% 35%;
+    }
+    .image-main{
+        grid-template-columns: repeat(1, 1fr);
+        padding: 9% 37% 19% 31%;
+    }
+    .sub-dsp-box {
+        font-size: 13px;
+    }
+    .sub-title-box {
+        font-size: 22px;
+    }
+    .new{
+        display: none;
+    }
+    .feed-title-box {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .feed-first-texting {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .feed-dsp-box {
+        margin-left: 0px;
+        width: 100%;
+        text-align: center;
+    }
+    .feedback-rating {
+        flex-direction: column;
+    }
+    .feedback-head{
+        padding-left: 0px;
+    }
+    .person-one{
+        width: 100%;
+    }
+    .person-two{
+        width: 100%;
+    }
+    
+    .footer-innerbox {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .footer-link {
+        font-size: 13px;
+    }
+    .phone-icon {
+        justify-content: center;
+    }
+    .large-text {
+        font-size: 21px;
+    }
+    .input-value{
+        width: 37%;
+        height: 60%;
+    }
+    .about-discription {
+        font-size: 14px;
+        justify-content: center;
+    }
+    .sub-btn {
+        width: 15%;
+        height: 64%;
+    }
+    .the-last-line {
+        gap: 33%;
+    }
+    .bottom-box{
+        text-align: center;
+    }
+    .sales{
+        justify-content: center;
+    }
+    .price{
+        justify-content: center;
+    }
+    .last-button{
+        width: 162px;
+    }
+    .box-top{
+        align-items: center;
+    }
+    .course-title {
+        margin-left: 0px;
+        text-align: center;
+        
+    }
+    .under-line {
+        margin-left: 0px;
+    }
+    .course-info {
+        margin-left: 0px;
+        text-align: center;
+    }
+    .box-bottom{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+
+    }
+    .info {
+        font-size: 14px;
+    }
+    .white-heart {
+        margin-left: 0px;
+    }
+    .free{
+        margin-left: 0px;
+    }
+    .sub-dist {
+        margin-left: 0px;
+    }
+    .price-per-month {
+        margin-left: 0px;
+    }
+    .sub-details {
+        margin-left: 0px;
+    }
+    .try-for-free {
+        margin-left: 0px;
+    }
+    .tick-box {
+        margin-left: 0px;
+    }
+
+}
+@media only screen and (max-width: 540px){ 
+    
+
+
+
+}
