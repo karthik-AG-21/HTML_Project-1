@@ -239,7 +239,7 @@
     .inner-box{
         padding: 0px;
         grid-template-columns: repeat(1 ,1fr);
-        padding: 10% 35%;
+        padding: 10% 25%;
     }
     .image-main{
         grid-template-columns: repeat(1, 1fr);
