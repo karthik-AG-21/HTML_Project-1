@@ -283,11 +283,12 @@ padding: 2px;
 .info{
     color: #ffffff;
 }
-}
+
 
 
 .box-top:hover{
     background-color: #ff6551;
+}
 .icon-box{
     background-color: #ffffff;
 }
